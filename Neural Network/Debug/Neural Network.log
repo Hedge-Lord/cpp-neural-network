@@ -1,0 +1,75 @@
+﻿  main.cpp
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(22,31): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(22,18): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(33,55): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(33,43): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(49,88): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(49,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(54,88): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(54,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(59,88): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(59,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(104,99): warning C4244: 'argument': conversion from '_Ty' to 'sf::Uint8', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(104,81): warning C4244: 'argument': conversion from '_Ty' to 'sf::Uint8', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\Neural Network\main.cpp(104,63): warning C4244: 'argument': conversion from '_Ty' to 'sf::Uint8', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  Neural Network.vcxproj -> C:\Users\georg\Desktop\Shit\Projects\Neural Network\Debug\Neural Network.exe

@@ -1,0 +1,12 @@
+﻿  Neural Network.cpp
+Neural Network.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Neural Network.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) referenced in function main
+Neural Network.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+Neural Network.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+Neural Network.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) referenced in function main
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\sfml\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\sfml\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\sfml\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\sfml\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\sfml\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\georg\Desktop\Shit\Projects\Neural Network\x64\Debug\Neural Network.exe : fatal error LNK1120: 5 unresolved externals
