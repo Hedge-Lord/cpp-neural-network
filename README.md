@@ -3,7 +3,7 @@ Basic neural network implemented in C++, visualized with SFML. Currently predict
 
 To run the application, download the Debug folder with the .exe and all the .dlls, and run Neural Network.exe
 
-To get open the solution, you need to set the additional include libraries path and additioan library dependencies path in order for the program to use the SFML libraries.
+To get open the solution and adjust the network params, you need to set the additional include libraries path and additioan library dependencies path in order for the program to use the SFML libraries.
 
 To do this:
 1. Right click on the project "Neural Network" in the seolution explorer tab
