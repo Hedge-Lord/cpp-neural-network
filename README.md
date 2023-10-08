@@ -1,7 +1,7 @@
 # cpp-neural-network
 Basic neural network implemented in C++, visualized with SFML. Currently predicts pixel color based on a few given inputs. Added multithreading with OpenMP.
 
-To run the application, download the Debug folder with the .exe and all the .dlls, and run neuralnetwork.exe
+To run the application, download the Debug folder with the .exe and all the .dlls, and run Neural Network.exe
 
 To get open the solution, you need to set the additional include libraries path and additioan library dependencies path in order for the program to use the SFML libraries.
 
