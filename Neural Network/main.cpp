@@ -9,7 +9,7 @@ const double SCREEN_RES = 720;
 const double SCALE_FACTOR = SCREEN_RES / SCREEN_SIZE;
 
 // CHANGE NUM NODES PER LAYER AND NUM LAYERS
-const vector<int> layerCounts = { 2, 4, 3 };
+const vector<int> layerCounts = { 2, 6, 4, 3 };
 
 
 
@@ -69,9 +69,6 @@ int main()
                         for (int i = 0; i < 1000; i++)
                             net.learn(data.data, 0.999);
                     }
-                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Return)) {
-                        training = !training;
-                    }
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::LShift)) {
                         data.clearDataPoints();
                         net.randomizeWB();
@@ -88,8 +85,10 @@ int main()
                 for (int i = 0; i < 100; i++)
                     net.learn(data.data, 0.999);
             double cost = net.cost(data.data);
-            cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntotal loss: " << cost;
-            cout << "\n--------\nLCLICK -> yellow point\nRCLICK -> cyan point\nMCLICK -> magenta point\n--------\nENTER  -> start/stop training\nTAB    -> run 1000 training iterations\nLCTRL  -> randomize weights and biases\nLSHIFT -> clear points";
+            if (cost < 0.001) training = false;
+            else training = true;
+            cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntotal loss: " << cost;
+            cout << "\n--------\nLCLICK -> yellow point\nRCLICK -> cyan point\nMCLICK -> magenta point\n--------\nTAB    -> run 1000 training iterations\nLCTRL  -> randomize weights and biases\nLSHIFT -> clear points";
         }
 
         // update screen pixels with neural network predictions
