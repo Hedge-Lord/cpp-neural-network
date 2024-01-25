@@ -1,18 +1,50 @@
-# cpp-neural-network
-Basic neural network implemented in C++, visualized with SFML. Currently predicts pixel color based on a few given inputs. Added multithreading with OpenMP.
+# C++ Neural Network Library
 
-To run the application, download the Debug folder with the .exe and all the .dlls, and run Neural Network.exe
+## Introduction
+This C++ Neural Network Library is a custom implementation of a neural network with backpropagation. It is designed to allow adjustable network topology and learning rate, making it suitable for a variety of applications. The library integrates OpenMP for enhanced multithreading capabilities, significantly improving training speed. Additionally, it features an intuitive UI, built with SFML, for real-time training and predictions.
 
-To get open the solution and adjust the network params, you need to set the additional include libraries path and additioan library dependencies path in order for the program to use the SFML libraries.
+## Features
+- Custom neural network implementation in C++.
+- Backpropagation algorithm for efficient learning.
+- Adjustable network topology and learning rate.
+- Multithreading support using OpenMP libraries.
+- Real-time training and prediction visualization using SFML.
+- Ability to predict pixel color based on given inputs.
 
-To do this:
-1. Right click on the project "Neural Network" in the seolution explorer tab
-2. Click "Properties"
-3. Navigate to Linker > General > Additional Library Directories
-4. Click the drop down arrow on the right, and click edit
-5. Double click the path that's already there, and click the button with three dots that apperas to the right
-6. Navigate to the project folder, then navigate to sfml > lib, click select folder, click OK
-7. Now navigate to C/C++ > General > Additional Include Directories
-8. Repeat steps 4-6, except in step 6 navigate to sfml > include instead
-9. Click apply, click OK
-10. The project should build and run successfully now.
+## Requirements
+- C++ Compiler (C++17 or later recommended).
+- SFML (Simple and Fast Multimedia Library) for UI and visualization.
+- OpenMP for multithreading support.
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/Hedge-Lord/cpp-neural-network.git
+```
+2. Navigate to the downloaded directory.
+
+### Setting Up SFML
+3. Download and install SFML 2.6.1 from [SFML Download](https://www.sfml-dev.org/download.php).
+4. Set up the additional include libraries path and additional library dependencies path in your IDE to use SFML libraries.
+
+## Usage
+### Running the Application
+- Download the `Debug` folder containing the `.exe` and all necessary `.dlls`.
+- Run `Neural Network.exe` to start the application.
+
+### Adjusting Network Parameters
+- Open the solution in your IDE.
+- Modify network parameters as desired in the provided configuration files or directly in the code.
+
+### Example Application
+![image](https://freight.cargo.site/w/480/i/fbe848c20c418f77a458c884ec5bfbe233293053828c3258720a7d453b808f96/giphy-3.gif)
+
+
+
+## Contributing
+Contributions to the project are welcome. 
+
+## Contact
+- Project Link: https://github.com/Hedge-Lord/cpp-neural-network
+
+---
